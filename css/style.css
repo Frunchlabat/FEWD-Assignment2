@@ -1,0 +1,98 @@
+/* The folowing styling is for the header container */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.body-styling {
+  width: 500px;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../images/header_bg.jpg");
+}
+h1.logo {
+  color: white;
+  align-self: flex-start;
+  margin-left: 50px;
+}
+
+.header-title {
+  color: white;
+  margin-top: 35px;
+  margin-bottom: 75px;
+}
+
+.button-header {
+  padding: 10px 24px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 14px;
+  background-color: yellow;
+  margin-top: 25px;
+  margin-bottom: 125px;
+}
+
+/* the following is for the middle container */
+
+.middle {
+  display: flex;
+  margin-left: 40px;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.middle-heading {
+  margin-top: 75px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* The following code is for the botttom section */
+
+.bottom {
+  display: flex;
+  font-size: 18px;
+  background-image: url("../images/testimonial_bg.jpg");
+  color: white;
+  justify-content: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/* the following code is for the sign up now section */
+
+.signup-section {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+}
+
+.button1 {
+  padding: 10px 24px;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+}
+
+.footer-section {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  height: 400px;
+  font-size: 24px;
+  color: yellow;
+  align-items: center;
+}
+
+.image-section {
+  padding-top: 100px;
+}
+
+.copyright {
+  font-size: 9px;
+  padding-top: 75px;
+}
